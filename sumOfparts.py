@@ -1,7 +1,7 @@
 import functools
 
 
-def sum_of_parts(list):
+def sum_of_parts(lis):
     parts = []
     for i in range(len(lis)):
         parts.append((functools.reduce(lambda a, b: a+b, lis)))
